@@ -5,28 +5,6 @@ A simple Student Registration Web Application deployed on AWS EC2 using Nginx + 
 
 This project demonstrates how to deploy a dynamic PHP website on AWS.
 
-AWS Architecture
-                    Internet
-                       |
-                       |
-                ┌──────────────┐
-                │  AWS EC2     │
-                │              │
-                │    Nginx     │
-                │      ↓       │
-                │   PHP-FPM    │
-                │      ↓       │
-                │ insert.php   │
-                └──────┬───────┘
-                       |
-                       | MySQL : 3306
-                       ↓
-                ┌──────────────┐
-                │ Amazon RDS   │
-                │    MySQL     │
-                │              │
-                │  studentdb   │
-                └──────────────┘
 🛠️ Technologies Used
 AWS EC2
 Amazon RDS MySQL
