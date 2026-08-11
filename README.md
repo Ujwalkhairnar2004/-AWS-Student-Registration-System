@@ -16,12 +16,14 @@ HTML5
 CSS3
 Linux
 Git & GitHub
+
 📁 Project Structure
 student-registration/
 │
 ├── index.html
 ├── insert.php
 └── README.md
+
 ☁️ AWS EC2 Setup
 1. Launch EC2
 
